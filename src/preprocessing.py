@@ -7,7 +7,7 @@ from Sastrawi.Stemmer.StemmerFactory import StemmerFactory
 print("Memulai preprocessing data...")
 
 #Load dataset
-df = pd.read_csv("brimo_raw_reviews.csv")
+df = pd.read_csv("data/brimo_raw_reviews.csv")
 
 #Hapus review kosong
 df = df.dropna(subset=['review'])
@@ -31,7 +31,7 @@ stemmer = stem_factory.create_stemmer()
 df['clean_review'] = df['clean_review'].apply(lambda x: stemmer.stem(x))
 
 #Simpan hasil
-df.to_csv("brimo_cleaned_reviews.csv", index=False)
+df.to_csv("data/brimo_cleaned_reviews.csv", index=False)
 
 print("Preprocessing selesai!")
 print(f"Total data setelah dibersihkan: {len(df)}")
