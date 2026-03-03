@@ -1,4 +1,7 @@
-PBA-TASK-1A-INDIVIDUAL
+## 🗂 Struktur Folder Project
+
+```
+PBA-BRIMO-SENTIMENTANALYSIS
 │
 ├── data/
 │   ├── brimo_raw_reviews.csv
@@ -10,6 +13,8 @@ PBA-TASK-1A-INDIVIDUAL
 ├── requirements.txt
 ├── README.md
 └── .gitignore
+```
+
 ## Deskripsi Aplikasi
 
 BRImo (BRI Mobile) adalah aplikasi mobile banking resmi dari Bank Rakyat Indonesia (BRI).  
