@@ -1,5 +1,3 @@
-## 🗂 Struktur Folder Project
-
 ## Deskripsi Proyek
 
 Proyek ini bertujuan untuk mengumpulkan dan mempersiapkan data review pengguna aplikasi **BRImo (BRI Mobile)** dari Google Play Store sebagai tahap awal analisis sentimen menggunakan metode **Natural Language Processing (NLP)**.
